@@ -1,0 +1,13 @@
+@mixin coverimage($location) {
+    background-image: linear-gradient(
+        to top,
+        rgba(0,45,75,0.5),
+        rgba(0,0,0,0.8)
+    ),
+    url($location);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
